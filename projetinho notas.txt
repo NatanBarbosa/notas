@@ -1,0 +1,23 @@
+Projetinho NOTAS
+
+HOME
+home terá quadrados. Cada quadrado será uma matéria. Botão pra criar matéria (form)
+cada matéria será uma tabela
+cada matéria terá um link ex.:notas.com/matemática
+cada matéria será uma tabela com colunas criadas dinâmicamente
+ex.: criar coluna nota prova 1 mat com o valor da nota (1-10)
+a coluna que vem padrão é a nota total (média de todas as colunas  criadas)
+notas organizadas em tabelas
+
+BD
+table matérias
+- id materia
+- nome materia
+- cor
+- descricao
+
+table notas
+- id nota
+- matéria (table materia)
+- prova
+- nota
